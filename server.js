@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
-const Product = requred("./models/productModel");
+const Product = require("./models/productModel");
 app.use(express.json());
 
 //routes
